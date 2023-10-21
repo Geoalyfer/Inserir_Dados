@@ -1,0 +1,17 @@
+A entrada de dados em uma tabela existente inicia-se pela seleção da pasta do banco de dados onde se deseja incluir as novas informações.
+
+Clique no botao Nova Consulta e escreva o seguinte comando;
+
+INSERT INTO aluno (matricula, nome) VALUES (111111, 'George Alysson')
+
+(1 row affected)
+
+Para confirmar os dados criados, clique com o botao direito na tabela cujo nome foi indicado para inserir o novo dado.
+Escolha a opção Select Top 1000 rows 
+
+Para inserir mais linhas com novos dados na tabela utilize o comando;
+
+INSERT INTO aluno VALUES (222222, 'Maria Ines') e clique em Executar
+
+A sugestão é inserir novos dados informando sempre o nome da coluna.
+
